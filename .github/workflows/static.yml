@@ -24,4 +24,4 @@ jobs:
           # Password generated from Theme Access app
           SHOPIFY_CLI_THEME_TOKEN: ${{ secrets.SHOPIFY_CLI_THEME_TOKEN }}
           SHOPIFY_CLI_TTY: 0
-        run: shopify theme push --theme 124876816483
+        run: shopify theme push --store="b2b-wholesale-dev" --theme 124876816483 --password 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 --allow-live
